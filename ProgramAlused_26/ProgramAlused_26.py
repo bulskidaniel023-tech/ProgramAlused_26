@@ -55,3 +55,10 @@ tehe=input("Tehe: ")
 b=float(input("Teine arv: "))
 
 print(f"{a} {tehe} {b} = {eval(f'{a} {tehe} {b}')}")
+import math
+
+print("Pii väärtus:", math.pi)
+print("√16 =", math.sqrt(16))
+print("sin(π/2) =", math.sin(math.pi / 2))
+print("sin(30°) =", round(math.sin(math.radians(30)), 2))
+print("5! =", math.factorial(5))
